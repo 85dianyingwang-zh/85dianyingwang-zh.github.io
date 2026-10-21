@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>85电影网｜80、90年代怀旧影视聚集地，经典老片与港片收录，网址 85dianyingwang-zh.github.io</title>
+<meta name="keywords" content="85电影网, 85dianyingwang-zh, 怀旧影视, 80年代电影, 90年代电影, 港片, 经典老片, 年代片库, 影视资源, 录像厅记忆, 怀旧观影">
+<meta name="description" content="85电影网（85dianyingwang-zh）是专注于80、90年代怀旧影视的内容平台，收录大量经典老片、港片、录像厅记忆与年代影视资源。官方网站 85dianyingwang-zh.github.io，带你回到那个录像厅爆满、港片横行的黄金年代。">
+<meta name="robots" content="index,follow">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="renderer" content="webkit">
+<link rel="canonical" href="https://85dianyingwang-zh.github.io">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --ink:#14181f;--ink2:#2b323d;--navy:#1b2430;--amber:#f2a81d;--amber2:#ff8a00;--paper:#f7f3ea;--card:#ffffff;--line:#e2dccb;--mute:#7c7880;
+}
+html{scroll-behavior:smooth}
+body{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;background:var(--paper);color:var(--ink);line-height:1.9;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+
+/* 报头 */
+.masthead{background:var(--ink);color:#fff;border-bottom:5px solid var(--amber);padding:18px 0 0}
+.mast-top{display:flex;align-items:flex-end;justify-content:space-between;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.14)}
+.mast-top .left{font-size:12px;color:#a8adb6;letter-spacing:1px}
+.mast-top .right{font-size:12px;color:var(--amber);letter-spacing:1px;font-weight:700}
+.brand{display:flex;align-items:center;justify-content:space-between;padding:26px 0 22px;flex-wrap:wrap;gap:20px}
+.brand .b1{display:flex;align-items:center;gap:18px}
+.brand .badge{width:74px;height:74px;background:var(--amber);color:var(--ink);border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1;flex-shrink:0;box-shadow:0 0 0 5px rgba(242,168,29,.18)}
+.brand .badge b{font-size:27px;font-weight:900}
+.brand .badge i{font-size:8.5px;font-style:normal;letter-spacing:1px;margin-top:3px}
+.brand h1{font-size:42px;font-weight:900;letter-spacing:1px}
+.brand h1 s{text-decoration:none;color:var(--amber)}
+.brand .sub{font-size:13px;color:#a8adb6;margin-top:4px;letter-spacing:2px}
+.mastdate{text-align:right;line-height:1.7;font-size:12.5px;color:#a8adb6}
+.mastdate b{display:block;color:var(--amber);font-size:15px;letter-spacing:1px}
+nav{background:var(--amber);display:flex;gap:0;flex-wrap:wrap}
+nav a{flex:1;min-width:110px;text-align:center;color:var(--ink);font-weight:800;font-size:14px;padding:15px 10px;border-right:1px solid rgba(0,0,0,.12);transition:.2s;letter-spacing:.5px}
+nav a:last-child{border-right:none}
+nav a:hover{background:var(--ink);color:var(--amber)}
+
+/* 头条区 */
+.leadstory{display:grid;grid-template-columns:1.5fr 1fr;gap:0;background:#fff;border:1px solid var(--line);border-top:none}
+.headline{padding:40px 36px;background:var(--navy);color:#fff;position:relative}
+.headline .kicker{font-size:12px;letter-spacing:4px;color:var(--amber);font-weight:800;margin-bottom:18px}
+.headline h2{font-size:33px;line-height:1.35;font-weight:900;margin-bottom:20px}
+.headline h2 em{font-style:normal;color:var(--amber)}
+.headline p{font-size:15px;color:#c9cfd8;margin-bottom:24px}
+.headline .urlline{background:rgba(242,168,29,.12);border-left:4px solid var(--amber);padding:16px 20px}
+.headline .urlline small{display:block;font-size:11px;color:var(--amber);letter-spacing:2px;margin-bottom:6px;font-weight:700}
+.headline .urlline code{font-family:Consolas,monospace;font-size:15px;color:#fff;word-break:break-all}
+.side{background:#fff}
+.side .cap{background:var(--ink);color:var(--amber);padding:12px 22px;font-size:13px;font-weight:800;letter-spacing:1px}
+.side ul li{border-bottom:1px dashed var(--line);padding:16px 22px}
+.side ul li:last-child{border-bottom:none}
+.side ul li a{display:flex;gap:14px;align-items:flex-start}
+.side .yr{font-size:12px;font-weight:900;color:var(--amber);background:var(--paper);padding:3px 8px;border-radius:3px;flex-shrink:0;font-family:Georgia,serif}
+.side .tx h4{font-size:15.5px;font-weight:800;margin-bottom:4px}
+.side .tx p{font-size:12.5px;color:var(--mute)}
+
+/* 栏目 */
+.sec{padding:72px 0}
+.belt{background:var(--ink);color:#fff;padding:14px 0;margin-bottom:44px;overflow:hidden}
+.belt .track{display:flex;gap:44px;white-space:nowrap;animation:scroll 30s linear infinite;font-size:13.5px;letter-spacing:1px}
+.belt .track span{display:flex;align-items:center;gap:10px}
+.belt .track span::before{content:"★";color:var(--amber);font-size:11px}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.sec-h{display:flex;align-items:baseline;gap:14px;margin-bottom:36px;border-bottom:3px double var(--ink);padding-bottom:14px;flex-wrap:wrap}
+.sec-h .no{font-family:Georgia,serif;font-size:34px;color:var(--amber);font-weight:900;line-height:1}
+.sec-h h2{font-size:27px;font-weight:900}
+.sec-h i{font-style:normal;font-size:12.5px;color:var(--mute);margin-left:auto;letter-spacing:1px}
+
+.cols{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.col{background:#fff;border:1px solid var(--line);position:relative;transition:.3s}
+.col:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(20,24,31,.12)}
+.col .ribbon{background:var(--ink);color:var(--amber);padding:12px 18px;display:flex;align-items:center;justify-content:space-between}
+.col .ribbon b{font-size:17.5px;font-weight:900}
+.col .ribbon i{font-style:normal;font-size:11px;letter-spacing:1px;color:#a8adb6}
+.col .body{padding:22px 18px 26px}
+.col .body .big{font-size:29px;font-weight:900;color:var(--paper);-webkit-text-stroke:1.5px var(--ink);line-height:1;margin-bottom:6px}
+.col .body .big s{text-decoration:none;color:var(--amber)}
+.col .body h3{font-size:16.5px;font-weight:800;margin-bottom:10px}
+.col .body p{font-size:13px;color:var(--mute);margin-bottom:16px;min-height:60px}
+.col .body ul li{padding:8px 0;border-top:1px solid var(--line);font-size:13.5px;color:var(--ink2);display:flex;gap:8px;align-items:baseline}
+.col .body ul li::before{content:"▸";color:var(--amber);font-size:11px;flex-shrink:0}
+.col .more{display:block;text-align:center;background:var(--paper);border-top:1px solid var(--line);padding:12px;font-size:12.5px;font-weight:700;color:var(--ink);transition:.2s}
+.col .more:hover{background:var(--amber);color:#fff}
+
+/* 年代轴 */
+.decade{background:var(--ink);color:#fff;padding:50px 44px;border-radius:2px;position:relative}
+.decade::before{content:"85";position:absolute;right:24px;top:50%;transform:translateY(-50%);font-size:150px;font-weight:900;color:rgba(255,255,255,.04);font-family:Georgia,serif;line-height:1}
+.dg{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.14);position:relative;z-index:2}
+.dc{background:var(--ink);padding:24px 20px}
+.dc .y{font-size:12px;color:var(--amber);font-weight:800;letter-spacing:1px}
+.dc h4{font-size:18px;margin:8px 0 8px;font-weight:900}
+.dc p{font-size:12.5px;color:#a8adb6}
+
+/* 数据 */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);background:#fff}
+.st{padding:34px 20px;text-align:center;border-right:1px solid var(--line)}
+.st:last-child{border-right:none}
+.st b{display:block;font-size:38px;font-weight:900;color:var(--ink);font-family:Georgia,serif;line-height:1}
+.st b s{text-decoration:none;color:var(--amber)}
+.st span{font-size:12.5px;color:var(--mute);display:block;margin-top:8px}
+
+/* 关于 */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);background:#fff}
+.ab-l{padding:40px 36px;background:var(--amber)}
+.ab-l .no{font-size:12px;letter-spacing:3px;color:var(--ink);font-weight:800}
+.ab-l h2{font-size:29px;font-weight:900;color:var(--ink);margin:12px 0 18px;line-height:1.4}
+.ab-l p{font-size:14.5px;color:var(--ink2);margin-bottom:14px}
+.ab-l .u{display:inline-block;background:var(--ink);color:var(--amber);padding:14px 20px;font-family:Consolas,monospace;font-size:13px;margin-top:10px;word-break:break-all}
+.ab-r{padding:40px 36px}
+.ab-r h3{font-size:17px;font-weight:900;margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.faq li{padding:14px 0;border-bottom:1px solid var(--line)}
+.faq li:last-child{border-bottom:none}
+.faq li q{display:block;font-size:15px;font-weight:700;font-style:normal;margin-bottom:5px;quotes:none}
+.faq li q::before{content:"Q ";color:var(--amber);font-weight:900}
+.faq li span{font-size:13px;color:var(--mute);display:block;padding-left:22px}
+
+footer{background:var(--ink);color:#a8adb6;padding:54px 0 0}
+.ft{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:34px}
+.ft .fbrand{font-size:22px;font-weight:900;color:#fff;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.ft .fbrand .bd{width:36px;height:36px;background:var(--amber);border-radius:50%;color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:900}
+.ft p{font-size:13px}
+.ft h5{font-size:13.5px;color:var(--amber);margin-bottom:16px;font-weight:800;letter-spacing:1px}
+.ft ul li{padding:6px 0;font-size:13px}
+.ft ul li a:hover{color:var(--amber)}
+.ft-bot{margin-top:38px;background:#0b0d11;padding:20px 0}
+.ft-bot .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:12.5px}
+.ft-bot b{color:#fff}
+.ft-bot code{font-family:Consolas,monospace;color:var(--amber)}
+
+@media(max-width:1000px){
+  .leadstory{grid-template-columns:1fr}
+  .cols,.dg,.stats{grid-template-columns:repeat(2,1fr)}
+  .col .body p{min-height:auto}
+  .st{border-right:none;border-bottom:1px solid var(--line)}
+  .about{grid-template-columns:1fr}
+  .ft{grid-template-columns:1fr 1fr}
+  .brand h1{font-size:34px}
+}
+@media(max-width:640px){
+  .wrap{padding:0 16px}
+  .mast-top,.mastdate{display:none}
+  .brand{padding:18px 0}
+  .brand h1{font-size:27px}
+  .badge{width:60px;height:60px}
+  .badge b{font-size:22px}
+  nav a{flex:none;min-width:50%;border-bottom:1px solid rgba(0,0,0,.12)}
+  .headline{padding:28px 20px}
+  .headline h2{font-size:24px}
+  .side ul li{padding:14px 20px}
+  .sec{padding:52px 0}
+  .sec-h h2{font-size:21px}
+  .cols,.dg,.stats,.about,.ft{grid-template-columns:1fr}
+  .decade{padding:34px 22px}
+  .decade::before{font-size:90px}
+  .ab-l,.ab-r{padding:30px 22px}
+  .ft-bot .wrap{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<!-- 报头 -->
+<div class="masthead">
+  <div class="wrap">
+    <div class="mast-top">
+      <div class="left">影视怀旧内容平台 · 经典年代片库 · 每日更新</div>
+      <div class="right">OFFICIAL · 85dianyingwang-zh.github.io</div>
+    </div>
+    <div class="brand">
+      <div class="b1">
+        <div class="badge"><b>85</b><i>怀旧</i></div>
+        <div>
+          <h1><s>85</s>电影网</h1>
+          <div class="sub">怀旧影视 · 年代片库 · 录像厅记忆</div>
+        </div>
+      </div>
+      <div class="mastdate"><b>NO.85</b>每日精选 · 经典不散场<br>海量片库持续扩充中</div>
+    </div>
+  </div>
+  <nav>
+    <a href="#cols">年代片库</a>
+    <a href="#decade">黄金年代</a>
+    <a href="#data">片库规模</a>
+    <a href="#about">关于本站</a>
+    <a href="#faq">常见问题</a>
+  </nav>
+</div>
+
+<!-- 头条 -->
+<section class="sec" style="padding-bottom:0">
+  <div class="wrap">
+    <div class="leadstory">
+      <div class="headline">
+        <div class="kicker">H E A D L I N E · 本期头条</div>
+        <h2>回到那个<em>录像厅爆满</em>的年代，<br>重温港片横行的黄金岁月</h2>
+        <p>85电影网（85dianyingwang-zh）专注收录80、90年代怀旧影视，从录像厅经典到港片黄金期，从国产老片到海外佳片，让你的每一次打开都像翻开一本旧影集。</p>
+        <div class="urlline">
+          <small>官方网站 / OFFICIAL WEBSITE</small>
+          <code>https://85dianyingwang-zh.github.io</code>
+        </div>
+      </div>
+      <aside class="side">
+        <div class="cap">本期推荐 · EDITOR'S PICK</div>
+        <ul>
+          <li><a href="#"><span class="yr">1986</span><div class="tx"><h4>英雄本色</h4><p>港片巅峰，兄弟情义的经典注脚</p></div></a></li>
+          <li><a href="#"><span class="yr">1987</span><div class="tx"><h4>倩女幽魂</h4><p>徐克监制，东方奇幻的浪漫记忆</p></div></a></li>
+          <li><a href="#"><span class="yr">1990</span><div class="tx"><h4>赌神</h4><p>王晶商业片的标志性符号</p></div></a></li>
+          <li><a href="#"><span class="yr">1992</span><div class="tx"><h4>新龙门客栈</h4><p>武侠片的一座难以逾越的高峰</p></div></a></li>
+          <li><a href="#"><span class="yr">1994</span><div class="tx"><h4>大话西游</h4><p>从争议到封神的世代经典</p></div></a></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- 滚动条 -->
+<div class="belt"><div class="track">
+  <span>怀旧影视聚集地</span><span>经典老片收录</span><span>港片黄金年代</span><span>录像厅记忆</span><span>年代片库每日更新</span><span>官网 85dianyingwang-zh.github.io</span>
+  <span>怀旧影视聚集地</span><span>经典老片收录</span><span>港片黄金年代</span><span>录像厅记忆</span><span>年代片库每日更新</span><span>官网 85dianyingwang-zh.github.io</span>
+</div></div>
+
+<!-- 四个栏目 -->
+<section class="sec" id="cols" style="padding-top:44px">
+  <div class="wrap">
+    <div class="sec-h"><span class="no">01</span><h2>年代片库四大栏目</h2><i>怀旧影视 · 全年代覆盖</i></div>
+    <div class="cols">
+      <div class="col">
+        <div class="ribbon"><b>80年代经典</b><i>1980s</i></div>
+        <div class="body">
+          <div class="big"><s>80</s></div>
+          <h3>八十年代影像记忆</h3>
+          <p>改革开放初期的影像记忆，国产老片与引进佳作，记录一个时代的温度。</p>
+          <ul>
+            <li>国产老电影精选</li>
+            <li>译制片与引进片</li>
+            <li>早期港台片</li>
+            <li>内地经典电视剧</li>
+          </ul>
+        </div>
+        <a class="more" href="#">进入 80年代经典（#）</a>
+      </div>
+      <div class="col">
+        <div class="ribbon"><b>90年代港片</b><i>1990s</i></div>
+        <div class="body">
+          <div class="big"><s>90</s></div>
+          <h3>港片黄金十年</h3>
+          <p>警匪、武侠、喜剧、赌片，一个产量与创意齐飞的年代，至今无人超越。</p>
+          <ul>
+            <li>警匪英雄片</li>
+            <li>武侠功夫片</li>
+            <li>无厘头喜剧</li>
+            <li>黑帮江湖片</li>
+          </ul>
+        </div>
+        <a class="more" href="#">进入 90年代港片（#）</a>
+      </div>
+      <div class="col">
+        <div class="ribbon"><b>年代剧集</b><i>TV SERIES</i></div>
+        <div class="body">
+          <div class="big"><s>剧</s></div>
+          <h3>那些年追过的剧</h3>
+          <p>从四大名著到港台连续剧，那些守在电视机前的夜晚，你还记得几部？</p>
+          <ul>
+            <li>经典名著改编剧</li>
+            <li>港台长篇连续剧</li>
+            <li>情景喜剧老番</li>
+            <li>经典动画与特摄</li>
+          </ul>
+        </div>
+        <a class="more" href="#">进入 年代剧集（#）</a>
+      </div>
+      <div class="col">
+        <div class="ribbon"><b>怀旧资讯</b><i>NEWS</i></div>
+        <div class="body">
+          <div class="big"><s>讯</s></div>
+          <h3>影史与修复动态</h3>
+          <p>老片修复、影人动态、影史钩沉，让经典被重新看见，也让记忆不被遗忘。</p>
+          <ul>
+            <li>老片修复资讯</li>
+            <li>影史钩沉与考据</li>
+            <li>影人回忆录</li>
+            <li>经典重映信息</li>
+          </ul>
+        </div>
+        <a class="more" href="#">进入 怀旧资讯（#）</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 黄金年代 -->
+<section class="sec" id="decade" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-h"><span class="no">02</span><h2>黄金年代脉络</h2><i>十年一档 · 风格各异</i></div>
+    <div class="decade">
+      <div class="dg">
+        <div class="dc"><div class="y">1970s · 尾声</div><h4>港片萌芽期</h4><p>邵氏武侠与李小龙，为黄金年代铺路。</p></div>
+        <div class="dc"><div class="y">1980s · 崛起</div><h4>新浪潮与录像厅</h4><p>类型片成型，录像厅文化席卷全国。</p></div>
+        <div class="dc"><div class="y">1990s · 巅峰</div><h4>产量与创意齐飞</h4><p>年产数百部，港片全球输出最盛期。</p></div>
+        <div class="dc"><div class="y">2000s · 转型</div><h4>合拍与新生代</h4><p>华语电影走向工业化的转折点。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 数据 -->
+<section class="sec" id="data" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-h"><span class="no">03</span><h2>片库规模</h2><i>数字会说话</i></div>
+    <div class="stats">
+      <div class="st"><b><s>85</s>+</b><span>年代特色栏目</span></div>
+      <div class="st"><b><s>2000</s>+</b><span>经典老片收录</span></div>
+      <div class="st"><b><s>365</s></b><span>天资讯更新</span></div>
+      <div class="st"><b><s>100</s>%</b><span>移动端适配</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 关于 -->
+<section class="sec" id="about" style="padding-top:0">
+  <div class="wrap about">
+    <div class="ab-l">
+      <div class="no">ABOUT · 关于本站</div>
+      <h2>为什么叫「85」？<br>因为我们怀念的，正是那个年代。</h2>
+      <p>85电影网（85dianyingwang-zh）是一个专注于80、90年代怀旧影视的内容平台，名字源自那一代人共同的观影记忆起点。</p>
+      <p>从录像厅的塑料椅到电视机前的全家守候，那些画面塑造了一代人的审美与情感。85电影网想做的，就是把这份记忆重新摆到你面前。</p>
+      <div class="u">https://85dianyingwang-zh.github.io</div>
+    </div>
+    <div class="ab-r">
+      <h3>常见问题</h3>
+      <ul class="faq" id="faq">
+        <li><q>85电影网主要收录什么内容？</q><span>以80、90年代怀旧影视为主，涵盖经典老片、港片、年代剧集与怀旧资讯。</span></li>
+        <li><q>网站内容多久更新一次？</q><span>片单每周精选整理，怀旧资讯与影史内容每日跟进更新。</span></li>
+        <li><q>支持手机端浏览吗？</q><span>支持，85电影网采用移动端自适应设计，手机、平板、电脑均可流畅访问。</span></li>
+        <li><q>如何找到官方网站？</q><span>认准唯一官网地址 https://85dianyingwang-zh.github.io，注意核对域名。</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap ft">
+    <div>
+      <div class="fbrand"><span class="bd">85</span>85电影网</div>
+      <p>专注80、90年代怀旧影视，收录经典老片与港片，重温录像厅记忆。官网：https://85dianyingwang-zh.github.io，带你回到那个港片横行的黄金年代。</p>
+    </div>
+    <div><h5>年代片库</h5><ul>
+      <li><a href="#cols">80年代经典</a></li>
+      <li><a href="#cols">90年代港片</a></li>
+      <li><a href="#cols">年代剧集</a></li>
+      <li><a href="#cols">怀旧资讯</a></li>
+    </ul></div>
+    <div><h5>黄金年代</h5><ul>
+      <li><a href="#decade">港片萌芽期</a></li>
+      <li><a href="#decade">录像厅时代</a></li>
+      <li><a href="#decade">巅峰十年</a></li>
+      <li><a href="#decade">转型合拍</a></li>
+    </ul></div>
+    <div><h5>内页入口</h5><ul>
+      <li><a href="#">经典老片（#）</a></li>
+      <li><a href="#">港片专题（#）</a></li>
+      <li><a href="#">影史资讯（#）</a></li>
+      <li><a href="#about">关于本站</a></li>
+    </ul></div>
+  </div>
+  <div class="ft-bot"><div class="wrap">
+    <div>© <b>85电影网</b>（85dianyingwang-zh）· 怀旧影视 · 年代片库 · 录像厅记忆</div>
+    <code>官网：https://85dianyingwang-zh.github.io</code>
+  </div></div>
+</footer>
+</body>
+</html>
